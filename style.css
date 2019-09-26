@@ -1,0 +1,35 @@
+html body{
+	margin:0;
+}
+h1{
+	margin:10px;
+}
+.App{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+.RecipeList{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding:50px;
+	width:80%;
+}
+.Recipe{
+	margin:20px;
+	text-align:center;
+	width:300px;
+}
+.Recipe img{
+	border-radius:50%;
+	margin:0 0 10px 0;
+}
+.Recipe:hover{
+	cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+	.RecipeList{
+		padding:0;
+	}
+  }
